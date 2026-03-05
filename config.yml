@@ -4,4 +4,4 @@
 
 links:
   # 我近期动态
-  - https://api.github.com/repos/yxksw/ghapi-json-generator/issues?per_page=20
+  - https://api.github.com/repos/yxksw/ghapi-json-generator/issues?per_page=20&state=all
