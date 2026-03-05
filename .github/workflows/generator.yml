@@ -1,9 +1,13 @@
 name: Generator
 
 on:
-    issues:
-        types: [closed, labeled]
-    workflow_dispatch:
+    push:
+        branches:
+            - main
+    watch:
+        types: [started]
+    schedule:
+        - cron: "0 * * * *"
 
 jobs:
     build:
