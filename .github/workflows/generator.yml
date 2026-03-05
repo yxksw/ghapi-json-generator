@@ -3,6 +3,7 @@ name: Generator
 on:
     issues:
         types: [closed, labeled]
+    workflow_dispatch:
 
 jobs:
     build:
